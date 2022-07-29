@@ -21,8 +21,8 @@ let contactString = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Se
 app.set("view engine","ejs");
 
 /**Server */
-app.listen(3000,function(){
-    console.log("Server is up and running on port 3000.....");
+app.listen(process.env.PORT ||3000,function(){
+    console.log("Server is up and running");
 });
 
 /**GET Requests */
