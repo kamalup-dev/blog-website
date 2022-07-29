@@ -1,0 +1,45 @@
+
+
+#nav-bar{
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem 6rem;
+}
+.nav-item{
+    font-size: smaller;
+}
+.col, .container{
+    padding-left: 0 !important;
+    padding-right:0 !important ;
+}
+h1, h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+#footer{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: rgb(82, 79, 79);
+    bottom:0;
+    position:absolute;
+    width: 100%;
+    padding: 1rem; 
+    background:#6cf;
+}
+.posts:last-child {
+    margin-bottom: 5rem;
+}
+
+.btn{
+    width: 10rem;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+a{
+    text-decoration: none !important;
+}
